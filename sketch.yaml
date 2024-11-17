@@ -1,0 +1,10 @@
+sketch: "main.ino"
+fqbn: "arduino:avr:nano"   # Change to match your board
+output: "./build"         # Directory for build files
+ports:
+  - "COM3"               # Set to your Arduino's port
+libraries:                # Add any required libraries here
+  - "EEPROM"
+  - "HX711_ADC"
+  - "LiquidCrystal"
+  - "Servo"
